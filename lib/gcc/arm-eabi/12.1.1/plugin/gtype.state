@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "12.1.1 20220611 (Stable)")
+(!version  "12.1.1 20220618 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 10 ada c cp d fortran go jit lto objc objcp)
 (!fileslist 227 0
@@ -14007,7 +14007,7 @@
                        (!type struct 618 
                         (!type already_seen 617)
                         gc_pointed_to "cl_target_option"
-                        (!srcfileloc  "config/arm/arm.cc" 28239)
+                        (!srcfileloc  "config/arm/arm.cc" 28247)
                         (!fields 12 
                          (!pair  "x_arm_stack_protector_guard_offset"
                           (!type already_seen 2)
@@ -31970,7 +31970,7 @@
   nil )
  (!pair  "cl_target_option"
   (!type already_seen 618)
-  (!srcfileloc  "config/arm/arm.cc" 28239)
+  (!srcfileloc  "config/arm/arm.cc" 28247)
   nil )
  (!pair  "arm_pragma_enum"
   (!type already_seen 2)
@@ -36418,11 +36418,11 @@
   nil )
  (!pair  "arm_previous_fndecl"
   (!type already_seen 23)
-  (!srcfileloc  "config/arm/arm.cc" 32989)
+  (!srcfileloc  "config/arm/arm.cc" 32997)
   nil )
  (!pair  "last_asm_targ_options"
   (!type already_seen 617)
-  (!srcfileloc  "config/arm/arm.cc" 28239)
+  (!srcfileloc  "config/arm/arm.cc" 28247)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 99)
