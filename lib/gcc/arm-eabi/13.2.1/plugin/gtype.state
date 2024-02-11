@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "13.2.1 20240203 (Stable)")
+(!version  "13.2.1 20240210 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 241 0
@@ -25040,7 +25040,7 @@
   nil 0 nil nil )
  
  (!type struct 1577 nil  gc_used "tm_clone_hasher"
-  (!srcfileloc  "varasm.cc" 6353)
+  (!srcfileloc  "varasm.cc" 6354)
   (!fields 0 )
   nil 4095 nil nil )
  
@@ -25049,11 +25049,11 @@
    (!type already_seen 1578)
   )
   gc_pointed_to "hash_table<tm_clone_hasher>"
-  (!srcfileloc  "varasm.cc" 6353)
+  (!srcfileloc  "varasm.cc" 6354)
   (!fields 1 
    (!pair  "tm_clone_hasher"
     (!type already_seen 1577)
-    (!srcfileloc  "varasm.cc" 6353)
+    (!srcfileloc  "varasm.cc" 6354)
     nil )
   )
  )
@@ -28549,19 +28549,19 @@
   (!fields 4 
    (!pair  "decl"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8451)
+    (!srcfileloc  "cp/cp-tree.h" 8452)
     nil )
    (!pair  "body"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8452)
+    (!srcfileloc  "cp/cp-tree.h" 8453)
     nil )
    (!pair  "parms"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8453)
+    (!srcfileloc  "cp/cp-tree.h" 8454)
     nil )
    (!pair  "result"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8454)
+    (!srcfileloc  "cp/cp-tree.h" 8455)
     nil )
   )
   (!options 
@@ -30453,7 +30453,7 @@
   nil 0 nil nil )
  
  (!type struct 2258 nil  gc_used "cplus_array_hasher"
-  (!srcfileloc  "cp/tree.cc" 1042)
+  (!srcfileloc  "cp/tree.cc" 1043)
   (!fields 0 )
   nil 1028 nil nil )
  
@@ -30462,11 +30462,11 @@
    (!type already_seen 2259)
   )
   gc_pointed_to "hash_table<cplus_array_hasher>"
-  (!srcfileloc  "cp/tree.cc" 1042)
+  (!srcfileloc  "cp/tree.cc" 1043)
   (!fields 1 
    (!pair  "cplus_array_hasher"
     (!type already_seen 2258)
-    (!srcfileloc  "cp/tree.cc" 1042)
+    (!srcfileloc  "cp/tree.cc" 1043)
     nil )
   )
  )
@@ -30476,7 +30476,7 @@
   nil 0 nil nil )
  
  (!type struct 2262 nil  gc_used "list_hasher"
-  (!srcfileloc  "cp/tree.cc" 2178)
+  (!srcfileloc  "cp/tree.cc" 2179)
   (!fields 0 )
   nil 1028 nil nil )
  
@@ -30485,11 +30485,11 @@
    (!type already_seen 2263)
   )
   gc_pointed_to "hash_table<list_hasher>"
-  (!srcfileloc  "cp/tree.cc" 2178)
+  (!srcfileloc  "cp/tree.cc" 2179)
   (!fields 1 
    (!pair  "list_hasher"
     (!type already_seen 2262)
-    (!srcfileloc  "cp/tree.cc" 2178)
+    (!srcfileloc  "cp/tree.cc" 2179)
     nil )
   )
  )
@@ -31657,19 +31657,19 @@
   nil )
  (!pair  "list_hasher"
   (!type already_seen 2262)
-  (!srcfileloc  "cp/tree.cc" 2178)
+  (!srcfileloc  "cp/tree.cc" 2179)
   nil )
  (!pair  "hash_table<list_hasher>"
   (!type already_seen 2263)
-  (!srcfileloc  "cp/tree.cc" 2178)
+  (!srcfileloc  "cp/tree.cc" 2179)
   nil )
  (!pair  "cplus_array_hasher"
   (!type already_seen 2258)
-  (!srcfileloc  "cp/tree.cc" 1042)
+  (!srcfileloc  "cp/tree.cc" 1043)
   nil )
  (!pair  "hash_table<cplus_array_hasher>"
   (!type already_seen 2259)
-  (!srcfileloc  "cp/tree.cc" 1042)
+  (!srcfileloc  "cp/tree.cc" 1043)
   nil )
  (!pair  "deferred_access"
   (!type already_seen 2252)
@@ -33001,11 +33001,11 @@
   nil )
  (!pair  "tm_clone_hasher"
   (!type already_seen 1577)
-  (!srcfileloc  "varasm.cc" 6353)
+  (!srcfileloc  "varasm.cc" 6354)
   nil )
  (!pair  "hash_table<tm_clone_hasher>"
   (!type already_seen 1578)
-  (!srcfileloc  "varasm.cc" 6353)
+  (!srcfileloc  "varasm.cc" 6354)
   nil )
  (!pair  "const_rtx_desc_hasher"
   (!type already_seen 1017)
@@ -36624,15 +36624,15 @@
   nil )
  (!pair  "deleted_copy_types"
   (!type already_seen 467)
-  (!srcfileloc  "cp/tree.cc" 4522)
+  (!srcfileloc  "cp/tree.cc" 4523)
   nil )
  (!pair  "list_hash_table"
   (!type already_seen 2264)
-  (!srcfileloc  "cp/tree.cc" 2178)
+  (!srcfileloc  "cp/tree.cc" 2179)
   nil )
  (!pair  "cplus_array_htab"
   (!type already_seen 2260)
-  (!srcfileloc  "cp/tree.cc" 1042)
+  (!srcfileloc  "cp/tree.cc" 1043)
   nil )
  (!pair  "deferred_access_no_check"
   (!type already_seen 2)
@@ -37138,11 +37138,11 @@
  )
  (!pair  "decl_post_fn"
   (!type already_seen 394)
-  (!srcfileloc  "cp/contracts.cc" 1301)
+  (!srcfileloc  "cp/contracts.cc" 1305)
   nil )
  (!pair  "decl_pre_fn"
   (!type already_seen 394)
-  (!srcfileloc  "cp/contracts.cc" 1300)
+  (!srcfileloc  "cp/contracts.cc" 1304)
   nil )
  (!pair  "cv_cache"
   (!type already_seen 394)
@@ -37165,11 +37165,11 @@
   nil )
  (!pair  "dvirt_fn"
   (!type already_seen 23)
-  (!srcfileloc  "cp/class.cc" 9919)
+  (!srcfileloc  "cp/class.cc" 9921)
   nil )
  (!pair  "abort_fndecl_addr"
   (!type already_seen 23)
-  (!srcfileloc  "cp/class.cc" 9918)
+  (!srcfileloc  "cp/class.cc" 9920)
   nil )
  (!pair  "enum_to_min_precision"
   (!type already_seen 2068)
@@ -37188,7 +37188,7 @@
   nil )
  (!pair  "unemitted_tinfo_decls"
   (!type already_seen 85)
-  (!srcfileloc  "cp/cp-tree.h" 7499)
+  (!srcfileloc  "cp/cp-tree.h" 7500)
   nil )
  (!pair  "ovl_op_alternate"
   (!type array 2402 nil  gc_used "OVL_OP_MAX" 
@@ -37851,22 +37851,22 @@
   nil )
  (!pair  "elf_fini_array_section"
   (!type already_seen 214)
-  (!srcfileloc  "varasm.cc" 8397)
+  (!srcfileloc  "varasm.cc" 8398)
   nil )
  (!pair  "elf_init_array_section"
   (!type already_seen 214)
-  (!srcfileloc  "varasm.cc" 8396)
+  (!srcfileloc  "varasm.cc" 8397)
   nil )
  (!pair  "tm_clone_hash"
   (!type already_seen 1579)
-  (!srcfileloc  "varasm.cc" 6353)
+  (!srcfileloc  "varasm.cc" 6354)
   (!options 
    (!option cache string  "")
   )
  )
  (!pair  "weakref_targets"
   (!type already_seen 23)
-  (!srcfileloc  "varasm.cc" 6008)
+  (!srcfileloc  "varasm.cc" 6009)
   nil )
  (!pair  "const_desc_htab"
   (!type already_seen 1572)
