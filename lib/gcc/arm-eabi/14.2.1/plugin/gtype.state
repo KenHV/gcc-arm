@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "14.2.1 20240831 (Stable)")
+(!version  "14.2.1 20240907 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 247 0
@@ -32316,15 +32316,15 @@
    (!type already_seen 2373)
   )
   gc_pointed_to "hash_map<tree,tree_pair_p>"
-  (!srcfileloc  "cp/pt.cc" 30752)
+  (!srcfileloc  "cp/pt.cc" 30764)
   (!fields 2 
    (!pair  "tree_pair_p"
     (!type already_seen 583)
-    (!srcfileloc  "cp/pt.cc" 30752)
+    (!srcfileloc  "cp/pt.cc" 30764)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "cp/pt.cc" 30752)
+    (!srcfileloc  "cp/pt.cc" 30764)
     nil )
   )
  )
@@ -34184,7 +34184,7 @@
   nil )
  (!pair  "hash_map<tree,tree_pair_p>"
   (!type already_seen 2373)
-  (!srcfileloc  "cp/pt.cc" 30752)
+  (!srcfileloc  "cp/pt.cc" 30764)
   nil )
  (!pair  "pending_template"
   (!type already_seen 2355)
@@ -39345,7 +39345,7 @@
   nil )
  (!pair  "dguide_cache"
   (!type already_seen 2374)
-  (!srcfileloc  "cp/pt.cc" 30752)
+  (!srcfileloc  "cp/pt.cc" 30764)
   (!options 
    (!option deletable string  "")
   )
@@ -40575,7 +40575,7 @@
   nil )
  (!pair  "tmp_var_id_num"
   (!type already_seen 2)
-  (!srcfileloc  "gimple-expr.cc" 421)
+  (!srcfileloc  "gimple-expr.cc" 419)
   nil )
  (!pair  "stmt_list_cache"
   (!type already_seen 85)
