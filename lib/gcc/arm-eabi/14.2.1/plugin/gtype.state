@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "14.2.1 20241012 (Stable)")
+(!version  "14.2.1 20241019 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 247 0
@@ -32316,15 +32316,15 @@
    (!type already_seen 2373)
   )
   gc_pointed_to "hash_map<tree,tree_pair_p>"
-  (!srcfileloc  "cp/pt.cc" 30793)
+  (!srcfileloc  "cp/pt.cc" 30798)
   (!fields 2 
    (!pair  "tree_pair_p"
     (!type already_seen 583)
-    (!srcfileloc  "cp/pt.cc" 30793)
+    (!srcfileloc  "cp/pt.cc" 30798)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "cp/pt.cc" 30793)
+    (!srcfileloc  "cp/pt.cc" 30798)
     nil )
   )
  )
@@ -34184,7 +34184,7 @@
   nil )
  (!pair  "hash_map<tree,tree_pair_p>"
   (!type already_seen 2373)
-  (!srcfileloc  "cp/pt.cc" 30793)
+  (!srcfileloc  "cp/pt.cc" 30798)
   nil )
  (!pair  "pending_template"
   (!type already_seen 2355)
@@ -39345,21 +39345,21 @@
   nil )
  (!pair  "dguide_cache"
   (!type already_seen 2374)
-  (!srcfileloc  "cp/pt.cc" 30793)
+  (!srcfileloc  "cp/pt.cc" 30798)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "explicit_specifier_map"
   (!type already_seen 1011)
-  (!srcfileloc  "cp/pt.cc" 14397)
+  (!srcfileloc  "cp/pt.cc" 14402)
   (!options 
    (!option cache string  "")
   )
  )
  (!pair  "defarg_inst"
   (!type already_seen 1628)
-  (!srcfileloc  "cp/pt.cc" 14259)
+  (!srcfileloc  "cp/pt.cc" 14264)
   (!options 
    (!option cache string  "")
   )
@@ -39892,7 +39892,7 @@
   nil )
  (!pair  "default_arg_context"
   (!type already_seen 85)
-  (!srcfileloc  "cp/call.cc" 9300)
+  (!srcfileloc  "cp/call.cc" 9304)
   nil )
  (!pair  "unemitted_tinfo_decls"
   (!type already_seen 85)
