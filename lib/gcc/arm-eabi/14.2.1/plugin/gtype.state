@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "14.2.1 20241019 (Stable)")
+(!version  "14.2.1 20241026 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 247 0
@@ -25836,31 +25836,31 @@
   nil 0 nil nil )
  
  (!type struct 1540 nil  gc_unused "ttypes_filter_hasher"
-  (!srcfileloc  "except.cc" 729)
+  (!srcfileloc  "except.cc" 731)
   (!fields 0 )
   nil 4095 nil nil )
  
  (!type user_struct 1541 nil  gc_unused "hash_table<ttypes_filter_hasher>"
-  (!srcfileloc  "except.cc" 729)
+  (!srcfileloc  "except.cc" 731)
   (!fields 1 
    (!pair  "ttypes_filter_hasher"
     (!type already_seen 1540)
-    (!srcfileloc  "except.cc" 729)
+    (!srcfileloc  "except.cc" 731)
     nil )
   )
  )
  
  (!type struct 1542 nil  gc_unused "ehspec_hasher"
-  (!srcfileloc  "except.cc" 764)
+  (!srcfileloc  "except.cc" 766)
   (!fields 0 )
   nil 4095 nil nil )
  
  (!type user_struct 1543 nil  gc_unused "hash_table<ehspec_hasher>"
-  (!srcfileloc  "except.cc" 764)
+  (!srcfileloc  "except.cc" 766)
   (!fields 1 
    (!pair  "ehspec_hasher"
     (!type already_seen 1542)
-    (!srcfileloc  "except.cc" 764)
+    (!srcfileloc  "except.cc" 766)
     nil )
   )
  )
@@ -35742,27 +35742,27 @@
   nil )
  (!pair  "ehspec_hash_type"
   (!type already_seen 1543)
-  (!srcfileloc  "except.cc" 764)
+  (!srcfileloc  "except.cc" 766)
   nil )
  (!pair  "ehspec_hasher"
   (!type already_seen 1542)
-  (!srcfileloc  "except.cc" 764)
+  (!srcfileloc  "except.cc" 766)
   nil )
  (!pair  "hash_table<ehspec_hasher>"
   (!type already_seen 1543)
-  (!srcfileloc  "except.cc" 764)
+  (!srcfileloc  "except.cc" 766)
   nil )
  (!pair  "ttypes_hash_type"
   (!type already_seen 1541)
-  (!srcfileloc  "except.cc" 729)
+  (!srcfileloc  "except.cc" 731)
   nil )
  (!pair  "ttypes_filter_hasher"
   (!type already_seen 1540)
-  (!srcfileloc  "except.cc" 729)
+  (!srcfileloc  "except.cc" 731)
   nil )
  (!pair  "hash_table<ttypes_filter_hasher>"
   (!type already_seen 1541)
-  (!srcfileloc  "except.cc" 729)
+  (!srcfileloc  "except.cc" 731)
   nil )
  (!pair  "action_hash_type"
   (!type already_seen 1537)
@@ -39314,7 +39314,7 @@
   nil )
  (!pair  "deleted_copy_types"
   (!type already_seen 508)
-  (!srcfileloc  "cp/tree.cc" 4510)
+  (!srcfileloc  "cp/tree.cc" 4502)
   nil )
  (!pair  "list_hash_table"
   (!type already_seen 2395)
@@ -39615,7 +39615,7 @@
   nil )
  (!pair  "start_cleanup_cnt"
   (!type already_seen 2)
-  (!srcfileloc  "cp/decl.cc" 9850)
+  (!srcfileloc  "cp/decl.cc" 9851)
   nil )
  (!pair  "decomp_type_table"
   (!type already_seen 1011)
@@ -40210,7 +40210,7 @@
  )
  (!pair  "thunk_labelno"
   (!type already_seen 2)
-  (!srcfileloc  "ada/gcc-interface/trans.cc" 10860)
+  (!srcfileloc  "ada/gcc-interface/trans.cc" 10866)
   nil )
  (!pair  "gnu_loop_stack"
   (!type already_seen 1973)
@@ -40371,11 +40371,11 @@
  )
  (!pair  "hwasan_ctor_statements"
   (!type already_seen 23)
-  (!srcfileloc  "asan.cc" 4685)
+  (!srcfileloc  "asan.cc" 4681)
   nil )
  (!pair  "asan_ctor_statements"
   (!type already_seen 23)
-  (!srcfileloc  "asan.cc" 3634)
+  (!srcfileloc  "asan.cc" 3630)
   nil )
  (!pair  "asan_detect_stack_use_after_return"
   (!type already_seen 23)
@@ -40586,7 +40586,7 @@
  )
  (!pair  "addr_list"
   (!type already_seen 246)
-  (!srcfileloc  "tree-ssa-loop-ivopts.cc" 2609)
+  (!srcfileloc  "tree-ssa-loop-ivopts.cc" 2610)
   nil )
  (!pair  "mem_addr_template_list"
   (!type already_seen 1668)
